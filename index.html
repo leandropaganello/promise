@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromiseOfTheLord</title>
+  <meta name="description" content="PromiseOfTheLord verbindet Glauben mit echtem Leben. Höre rein, komm auf Tour, werde Teil der Bewegung." />
+  <meta property="og:title" content="PromiseOfTheLord — Worship. Hoffnung. Bewegung." />
+  <meta property="og:description" content="Ehrliche Worship-Musik für eine Generation, die nach Sinn sucht." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo"><span class="grad">Promise</span>OfTheLord</a>
+      <nav class="nav-links">
+        <a href="#about">Über</a>
+        <a href="#music">Musik</a>
+        <a href="#tour">Tour</a>
+        <a href="#community">Community</a>
+        <a href="https://www.cvents.eu/de/artist/promise-of-the-lord" class="btn btn-primary btn-sm">Tour beitreten</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">Über</a>
+      <a href="#music">Musik</a>
+      <a href="#tour">Tour</a>
+      <a href="#community">Community</a>
+      <a href="https://www.cvents.eu/de/artist/promise-of-the-lord" class="btn btn-primary">Tour beitreten</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <img src="assets/hero-worship.jpg" alt="" aria-hidden="true" class="hero-bg" />
+    <div class="hero-overlay"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="hero-content">
+      <p class="badge reveal">
+        <span class="dot"></span> Neue Single „Komm Heim" jetzt überall
+      </p>
+      <h1 class="reveal">
+        Ich bin Christ, <br /> <span class="grad">aber nicht besser als Du!</span>
+      </h1>
+      <p class="lead reveal">
+        Keine Musik mit Beleidungen, sondern Musik, die bewegt.
+        Komm, hör rein – und sei dabei!
+      </p>
+      <div class="cta-row reveal">
+        <a href="https://www.cvents.eu/de/artist/promise-of-the-lord" class="btn btn-primary">Tour beitreten →</a>
+        <a href="#music" class="btn btn-glass">▶ Jetzt reinhören</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container grid-2">
+      <div class="reveal about-img-wrap">
+        <div class="img-glow"></div>
+        <img src="assets/about-artist.jpg" alt="PromiseOfTheLord Portrait" loading="lazy" />
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Über PromiseOfTheLord</p>
+        <h2>Glaube. Echtes Leben.<br /><span class="grad">Eine Bewegung.</span></h2>
+        <p class="muted">
+          PromiseOfTheLord verbindet Glauben mit echtem Leben.
+          Ehrlich, nahbar und für eine Generation, die nach Sinn sucht.
+        </p>
+        <p class="muted small">
+      Er glaubt fest daran, dass Jesus für die Kranken gekommen ist (Matthäus 9,12).
+      Deshalb versucht Promise, Menschen in den unterschiedlichsten Lebenssituationen
+      und mit verschiedenen Perspektiven zu erreichen und ihnen durch seine Musik neuen Mut zu schenken.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section class="section music-section" id="music">
+    <div class="bg-orb"></div>
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Musik</p>
+        <h2>Hör <span class="grad">rein.</span></h2>
+        <p class="muted">Songs, die geschrieben wurden für die Momente, in denen du sie am meisten brauchst.</p>
+      </div>
+      <div class="music-grid" id="musicGrid"></div>
+    </div>
+  </section>
+
+  <!-- TOUR -->
+  <section class="section" id="tour">
+    <div class="container container-narrow">
+      <div class="section-head reveal">
+        <p class="eyebrow">Live 2026</p>
+        <h2>Auf <span class="grad-warm">Tour.</span></h2>
+      </div>
+      <div class="tour-list" id="tourList"></div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="section" id="community">
+    <div class="container">
+      <div class="community-card reveal">
+        <div class="community-blob"></div>
+        <div class="heart">♥</div>
+        <h2>Du bist nicht allein.</h2>
+        <p>Werde Teil von etwas Größerem. Einer Community, die glaubt, kämpft, feiert – zusammen.</p>
+        <a href="https://www.cvents.eu/de/artist/promise-of-the-lord" class="btn btn-light">Tour beitreten →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="logo"><span class="grad">Promise</span>OfTheLord</p>
+        <p class="footer-meta">© <span id="year"></span> · Made with ♥ & Glaube</p>
+      </div>
+      <div class="socials">
+        <a href="https://instagram.com/promiseofthelord/" target="_blank" rel="noreferrer" aria-label="Instagram">IG</a>
+        <a href="https://open.spotify.com/artist/1FTGPC6uKaeHf3heVuqZS5" target="_blank" rel="noreferrer" aria-label="Spotify">SP</a>
+        <a href="https://www.youtube.com/@promiseofthelord" target="_blank" rel="noreferrer" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
